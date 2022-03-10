@@ -13,6 +13,8 @@ public class FizzArray {
     }
 
     public static void main(String[] args) {
-        System.out.println(fizzArray(10));
+        for(int num: fizzArray(10)){
+            System.out.println(num);
+        }
     }
 }
