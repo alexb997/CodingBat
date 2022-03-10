@@ -15,6 +15,8 @@ public class ShiftLeft {
 
     public static void main(String[] args) {
         int[] nums = {6, 2, 5, 3};
-        System.out.println(shiftLeft(nums));
+        for(int num: shiftLeft(nums)){
+            System.out.println(num);
+        }
     }
 }

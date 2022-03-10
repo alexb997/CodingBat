@@ -3,6 +3,8 @@
 // arrays may be any length, including 0, but there will be 2 or more
 // elements available between the 2 arrays.
 
+import java.util.Arrays;
+
 public class Make2 {
     public static int[] make2(int[] a, int[] b) {
         int[] arr = new int[2];
@@ -26,6 +28,6 @@ public class Make2 {
     public static void main(String[] args) {
         int[] nums1= {1, 1, 3};
         int[] nums2= {1, 2, 5};
-        System.out.println(make2(nums1,nums2));
+        System.out.println(Arrays.toString(make2(nums1, nums2)));
     }
 }

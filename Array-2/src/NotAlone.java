@@ -21,6 +21,8 @@ public class NotAlone {
 
     public void main(String[] args) {
         int[] nums = {1, 2, 3, 2, 5, 2};
-        System.out.println(notAlone(nums, 2));
+        for(int num: notAlone(nums,2)){
+            System.out.println(num);
+        }
     }
 }

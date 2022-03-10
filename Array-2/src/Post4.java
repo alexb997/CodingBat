@@ -16,6 +16,8 @@ public class Post4 {
 
     public static void main(String[] args) {
         int[] nums = {4, 1, 4, 2};
-        System.out.println(post4(nums));
+        for(int num: post4(nums)){
+            System.out.println(num);
+        }
     }
 }

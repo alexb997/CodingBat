@@ -23,6 +23,8 @@ public class ZeroFront {
 
     public static void main(String[] args) {
         int[] nums= {0, 2, 21, 0, 2};
-        System.out.println(zeroFront(nums));
+        for(int num: zeroFront(nums)){
+            System.out.println(num);
+        }
     }
 }

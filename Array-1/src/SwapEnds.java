@@ -1,6 +1,8 @@
 //Given an array of ints, swap the first and last elements in the array.
 // Return the modified array. The array length will be at least 1.
 
+import java.util.Arrays;
+
 public class SwapEnds {
     public static int[] swapEnds(int[] nums) {
         int temp = nums[0];
@@ -11,6 +13,6 @@ public class SwapEnds {
 
     public static void main(String[] args) {
         int[] nums= {1, 1, 3};
-        System.out.println(swapEnds(nums));
+        System.out.println(Arrays.toString(swapEnds(nums)));
     }
 }

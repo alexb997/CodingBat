@@ -11,6 +11,8 @@ public class BiggerTwo {
     public static void main(String[] args) {
         int[] nums1= {1, 1};
         int[] nums2= {1, 2};
-        System.out.println(biggerTwo(nums1, nums2));
+        for(int num: biggerTwo(nums1, nums2)){
+            System.out.println(num);
+        }
     }
 }

@@ -25,6 +25,8 @@ public class TenRun {
 
     public static void main(String[] args) {
         int[] nums = {10, 1, 20, 2};
-        System.out.println(tenRun(nums));
+        for(int num: tenRun(nums)){
+            System.out.println(num);
+        }
     }
 }

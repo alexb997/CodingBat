@@ -23,6 +23,8 @@ public class WithoutTen {
 
     public static void main(String[] args) {
         int[] nums= {1, 10, 10, 2};
-        System.out.println(withoutTen(nums));
+        for(int num: withoutTen(nums)){
+            System.out.println(num);
+        }
     }
 }

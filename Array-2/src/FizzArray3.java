@@ -14,6 +14,8 @@ public class FizzArray3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fizzArray3(11, 18));
+        for(int num: fizzArray3(11, 18)){
+            System.out.println(num);
+        }
     }
 }

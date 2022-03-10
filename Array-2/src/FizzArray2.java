@@ -4,6 +4,8 @@
 // Note: String.valueOf(xxx) will make the String form of most types.
 // The syntax to make a new string array is: new String[desired_length]
 
+import java.util.Arrays;
+
 public class FizzArray2 {
     public static String[] fizzArray2(int n) {
         String[] arr = new String[n];
@@ -13,6 +15,6 @@ public class FizzArray2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fizzArray2(10));
+        System.out.println(Arrays.toString(fizzArray2(10)));
     }
 }
